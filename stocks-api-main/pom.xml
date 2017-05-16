@@ -7,9 +7,9 @@
 	<artifactId>api-main</artifactId>
 
 	<parent>
-		<groupId>butterly-effect-stocks</groupId>
+		<groupId>io.scipionyx.stocks</groupId>
 		<artifactId>api-parent</artifactId>
-		<version>0.1.0-SNAPSHOT</version>
+		<version>0.1.0</version>
 		<relativePath>../stocks-api</relativePath>
 	</parent>
 
@@ -33,7 +33,7 @@
 		</dependency>
 
 		<dependency>
-			<groupId>butterly-effect-framework</groupId>
+			<groupId>io.scipionyx.framework</groupId>
 			<artifactId>api-infrastructure</artifactId>
 		</dependency>
 	</dependencies>

@@ -5,19 +5,16 @@
 	<artifactId>backend-bootstrap</artifactId>
 
 	<parent>
-		<groupId>butterly-effect-stocks</groupId>
+		<groupId>io.scipionyx.stocks</groupId>
 		<artifactId>backend-parent</artifactId>
-		<version>0.1.0-SNAPSHOT</version>
+		<version>0.1.0</version>
 		<relativePath>../stocks-backend</relativePath>
 	</parent>
 
 	<dependencies>
-
-
 		<dependency>
-			<groupId>butterly-effect-stocks</groupId>
+			<groupId>io.scipionyx.stocks</groupId>
 			<artifactId>backend-main</artifactId>
-			<version>0.1.0-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 

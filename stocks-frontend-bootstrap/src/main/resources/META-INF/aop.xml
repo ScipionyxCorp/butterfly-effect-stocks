@@ -1,0 +1,16 @@
+<!DOCTYPE aspectj PUBLIC "-//AspectJ//DTD//EN" "http://www.eclipse.org/aspectj/dtd/aspectj.dtd">
+<aspectj>
+	<weaver>
+		<include
+			within="com.scipionyx.butterflyeffect.frontend.configuration.ui.view.*" />
+
+		<include
+			within="com.scipionyx.butterflyeffect.frontend.stocks.main.ui.view.configuration.valuable.*" />
+		<include
+			within="com.scipionyx.butterflyeffect.frontend.stocks.main.ui.view.portfolio.*" />
+		<include
+			within="com.scipionyx.butterflyeffect.frontend.stocks.main.ui.view.research.*" />
+		<include
+			within="com.scipionyx.butterflyeffect.frontend.stocks.main.ui.view.strategyhub.*" />
+	</weaver>
+</aspectj>
