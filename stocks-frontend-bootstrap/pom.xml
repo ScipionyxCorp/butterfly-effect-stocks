@@ -8,10 +8,10 @@
 	<artifactId>butterfly-effect-stocks-frontend-bootstrap</artifactId>
 
 	<parent>
-		<groupId>com.scipionyx</groupId>
-		<artifactId>butterfly-effect-stocks-frontend-parent</artifactId>
-		<version>0.1.0-SNAPSHOT</version>
-		<relativePath>../butterfly-effect-stocks-frontend-parent</relativePath>
+		<groupId>io.scipionyx.stocks</groupId>
+		<artifactId>frontend-parent</artifactId>
+		<version>0.1.1-SNAPSHOT</version>
+		<relativePath>../stocks-frontend</relativePath>
 	</parent>
 
 	<dependencies>
