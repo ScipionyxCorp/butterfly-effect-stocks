@@ -33,7 +33,7 @@
 				<artifactId>backend-jobmanagement</artifactId>
 				<version>${framework.version}</version>
 			</dependency>
-			
+
 			<dependency>
 				<groupId>io.scipionyx.stocks</groupId>
 				<artifactId>api-main</artifactId>
@@ -44,6 +44,12 @@
 				<artifactId>backend-main</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+			<dependency>
+				<groupId>io.scipionyx.stocks</groupId>
+				<artifactId>frontend-main</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
 		</dependencies>
 	</dependencyManagement>
 

@@ -16,43 +16,12 @@
 
 	<dependencies>
 
-		<dependency>
-			<groupId>com.scipionyx</groupId>
-			<artifactId>butterfly-effect-frontend-core</artifactId>
-			<version>0.1.0-SNAPSHOT</version>
-		</dependency>
 
-		<dependency>
-			<groupId>com.scipionyx</groupId>
-			<artifactId>butterfly-effect-frontend-security</artifactId>
-			<version>0.1.0-SNAPSHOT</version>
-		</dependency>
 
 		<!-- -->
 
-		<dependency>
-			<groupId>com.scipionyx</groupId>
-			<artifactId>
-					butterfly-effect-frontend-sessionmanagement
-				</artifactId>
-			<version>0.1.0-SNAPSHOT</version>
-		</dependency>
 
-		<dependency>
-			<groupId>com.scipionyx</groupId>
-			<artifactId>
-				butterfly-effect-frontend-jobmanager
-			</artifactId>
-			<version>0.1.0-SNAPSHOT</version>
-		</dependency>
 
-		<dependency>
-			<groupId>butterfly-effect-stocks-frontend-main</groupId>
-			<artifactId>
-				butterfly-effect-stocks-frontend-main
-			</artifactId>
-			<version>0.1.0-SNAPSHOT</version>
-		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -81,6 +50,29 @@
 		</dependency>
 
 
+		<dependency>
+			<groupId>io.scipionyx.framework</groupId>
+			<artifactId>frontend-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>io.scipionyx.framework</groupId>
+			<artifactId>frontend-security</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>io.scipionyx.framework</groupId>
+			<artifactId>frontend-sessionmanagement</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>io.scipionyx.framework</groupId>
+			<artifactId>frontend-jobmanager</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>io.scipionyx.stocks</groupId>
+			<artifactId>frontend-main</artifactId>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
