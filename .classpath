@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="stocks-api-main/src/main/java"/>
+	<classpathentry kind="src" path="stocks-api-main/src/test/java"/>
+	<classpathentry kind="src" path="stocks-backend-bootstrap/src/main/java"/>
+	<classpathentry kind="src" path="stocks-backend-main/src/main/java"/>
+	<classpathentry kind="src" path="stocks-frontend-bootstrap/src/main/java"/>
+	<classpathentry kind="lib" path="stocks-frontend-bootstrap/lib/aspectjweaver-1.8.9.jar"/>
+	<classpathentry kind="lib" path="stocks-frontend-bootstrap/lib/spring-instrument-4.3.5.RELEASE.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
